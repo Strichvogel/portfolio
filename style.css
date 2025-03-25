@@ -1,6 +1,6 @@
 /* GENERAL */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   margin: 0;
@@ -66,7 +66,7 @@ a:hover {
   cursor: default;
 }
 
-/* HAMBURGER MENU */
+/* HAMBURGER  MENU */
 
 #hamburger-nav {
   display: none;
@@ -138,16 +138,23 @@ a:hover {
   transform: none;
 }
 
-.hamburger-icon span:first-child {
+.hamburger-icon span:nth-child(2) {
+  opacity: 1;
+}
+
+.hamburger-icon span:last-child {
+  transform: none;
+}
+
+/* .hamburger-icon span:first-child {
   opacity: 1;
 }
 
 .hamburger-icon span:first-child {
   transform: none;
-}
+} */
 
 /* SECTIONS */
-
 section {
   padding-top: 4vh;
   height: 96vh;
@@ -161,7 +168,6 @@ section {
 }
 
 /* PROFILE SECTION */
-
 #profile {
   display: flex;
   justify-content: center;
@@ -246,7 +252,7 @@ section {
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
 }
 
 .btn-color-2 {
@@ -292,7 +298,6 @@ section {
   right: -5rem;
   bottom: 2.5rem;
 }
-
 .details-container {
   padding: 1.5rem;
   flex: 1;
@@ -338,12 +343,12 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 2rem;
   justify-content: space-around;
 }
 
 article {
-  display: flex;
+  display: flex;http://127.0.0.1:5500/assets/project-1.png
   width: 10rem;
   justify-content: space-around;
   gap: 0.5rem;
@@ -361,7 +366,7 @@ article .icon {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  background: rgb(250,250,250);
 }
 
 .project-img {
@@ -393,9 +398,9 @@ article .icon {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(53,53,53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  background: (250, 250, 250);
+  background: rgb(250,250,250);
   margin: 2rem auto;
   padding: 0.5rem;
 }
